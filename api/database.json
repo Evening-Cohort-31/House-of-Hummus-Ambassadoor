@@ -137,6 +137,20 @@
       "sideId": 1,
       "timestamp": 1758411654001,
       "id": 1
+    },
+    {
+      "entreeId": 1,
+      "vegetableId": 3,
+      "sideId": 4,
+      "timestamp": 1758411965712,
+      "id": 2
+    },
+    {
+      "entreeId": 4,
+      "vegetableId": 4,
+      "sideId": 2,
+      "timestamp": 1758412011634,
+      "id": 3
     }
   ]
 }

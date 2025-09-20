@@ -10,5 +10,7 @@ const renderAllHTML = async () => {
     document.querySelector("#purchase").addEventListener("click", submitOrder)
 }
 
+document.addEventListener("newOrder", renderAllHTML)
+
 renderAllHTML()
 
