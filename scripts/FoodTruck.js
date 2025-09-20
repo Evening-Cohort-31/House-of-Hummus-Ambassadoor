@@ -1,7 +1,12 @@
 import { Sales } from "./Sales.js"
+import { RadioSelection } from "./RadioSelection.js"
 
 export const FoodTruck = async () => {
     const salesHTML = await Sales()
+    const entrees = await RadioSelection("entrees")
+    const vegetables = await RadioSelection("vegetables")
+    const sides = await RadioSelection("sides")
+
 
     return `
         <header class="header">
@@ -10,6 +15,9 @@ export const FoodTruck = async () => {
         </header>
 
         <article>
+            ${entrees}
+            ${vegetables}
+            ${sides}
             <button id="purchase">Purchase Combo</button>
         </article>
 
