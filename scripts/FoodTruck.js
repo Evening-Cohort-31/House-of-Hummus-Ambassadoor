@@ -1,7 +1,7 @@
 import { Sales } from "./Sales.js"
 
-export const FoodTruck = () => {
-    const salesHTML = Sales()
+export const FoodTruck = async () => {
+    const salesHTML = await Sales()
 
     return `
         <header class="header">
