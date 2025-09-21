@@ -15,9 +15,11 @@ export const FoodTruck = async () => {
         </header>
 
         <article>
+            <section class="choice__container">
             ${entrees}
             ${vegetables}
             ${sides}
+            </section>
             <button id="purchase">Purchase Combo</button>
         </article>
 
@@ -25,6 +27,5 @@ export const FoodTruck = async () => {
             <h2>Monthly Sales</h2>
             ${salesHTML}
         </article>
-
     `
 }
